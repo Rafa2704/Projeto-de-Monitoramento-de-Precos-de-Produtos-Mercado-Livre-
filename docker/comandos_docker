@@ -1,0 +1,6 @@
+cria a imagem : docker build -t terraform-image:terraform .
+cria o container mapeado: docker run -dit --name projeto_tcc -v C:\Users\rafae\Desktop\Projeto-de-Monitoramento-de-Precos-de-Produtos-Mercado-Livre-\terraform:/terraform terraform-image:terraform /bin/bash
+
+
+
+
